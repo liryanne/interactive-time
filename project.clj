@@ -17,13 +17,13 @@
 
   :source-paths ["src/clj" "src/cljs"]
 
-  :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]
+  :clean-targets ^{:protect false} ["/resources/public/js/compiled" "target"]
 
 
   :shadow-cljs {:nrepl {:port 8777}
 
                 :builds {:app {:target :browser
-                               :output-dir "resources/public/js/compiled"
+                               :output-dir "/resources/public/js/compiled"
                                :asset-path "/js/compiled"
                                :modules {:app {:init-fn interactive-time.core/init
                                                :preloads [devtools.preload

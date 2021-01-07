@@ -10,8 +10,8 @@
 		"dev": "shadow-cljs watch app",
 		"release": "shadow-cljs release app",
 		"server": "shadow-cljs server",
-		"clean": "rm -rf target && rm -rf public/js",
-		"clean-win": "rmdir /s /q public/js & rmdir /s /q target"
+		"clean": "rm -rf target && rm -rf resources/public/js",
+		"clean-win": "rmdir /s /q resources/public/js & rmdir /s /q target"
 	},
 	"devDependencies": {
 		"shadow-cljs": "2.11.7"
