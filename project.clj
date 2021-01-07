@@ -17,13 +17,13 @@
 
   :source-paths ["src/clj" "src/cljs"]
 
-  :clean-targets ^{:protect false} ["/resources/public/js/compiled" "target"]
+  :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]
 
 
   :shadow-cljs {:nrepl {:port 8777}
 
                 :builds {:app {:target :browser
-                               :output-dir "/resources/public/js/compiled"
+                               :output-dir "resources/public/js/compiled"
                                :asset-path "/js/compiled"
                                :modules {:app {:init-fn interactive-time.core/init
                                                :preloads [devtools.preload
@@ -35,8 +35,8 @@
                                           {day8.re-frame.tracing day8.re-frame.tracing-stubs}}}
 
                                :devtools {:http-root "resources/public"
-                                          :http-port 8280
-                                          }}}}
+                                          :http-port 8280}}}}
+
 
   :shell {:commands {"karma" {:windows         ["cmd" "/c" "karma"]
                               :default-command "karma"}
@@ -74,8 +74,8 @@
                    [day8.re-frame/re-frame-10x "0.7.0"]]
     :source-paths ["dev"]}
 
-   :prod {}
+   :prod {}}
 
-}
+
 
   :prep-tasks [])
