@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.graalvm.js/js:20.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/graalvm/js/js/20.1.0/js-20.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
