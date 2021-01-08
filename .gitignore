@@ -1,10 +1,9 @@
 /out/
-/resources/public/js/compiled/cljs-runtime/
-/target/
+/public/js/cljs-runtime/
+/target
 /*-init.clj
 /*.log
 
-# Leiningen
 /.lein-*
 /.nrepl-port
 
