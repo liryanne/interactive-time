@@ -1,0 +1,1 @@
+{"version":3,"sources":["interactive_time/db.cljs"],"mappings":";AAEA,AAAA,AAAA,AAAA,AAAKA","names":["interactive-time.db/default-db"],"sourcesContent":["(ns interactive-time.db)\r\n\r\n(def default-db\r\n  {:name \"re-frame\"})\r\n"]}

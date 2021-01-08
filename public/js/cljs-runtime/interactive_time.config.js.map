@@ -1,0 +1,1 @@
+{"version":3,"sources":["interactive_time/config.cljs"],"mappings":";AAEA,AAAKA,AACMC","names":["interactive-time.config/debug?","js/goog.DEBUG"],"sourcesContent":["(ns interactive-time.config)\r\n\r\n(def debug?\r\n  ^boolean goog.DEBUG)\r\n"]}

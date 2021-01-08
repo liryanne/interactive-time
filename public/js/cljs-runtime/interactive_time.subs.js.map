@@ -1,0 +1,1 @@
+{"version":3,"sources":["interactive_time/subs.cljs"],"mappings":";AAIA,AAAA,AAACA,AAEA,AAAKC;AAAL,AACE,AAAA,AAAOA","names":["re_frame.core.reg_sub","db"],"sourcesContent":["(ns interactive-time.subs\r\n  (:require\r\n   [re-frame.core :as re-frame]))\r\n\r\n(re-frame/reg-sub\r\n ::name\r\n (fn [db]\r\n   (:name db)))\r\n"]}
